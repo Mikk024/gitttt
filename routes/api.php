@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Storage;
 |
 */
 
-Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
+Route::get('/user', function (Request $request) {
     return UserResource::make($request->user());
 });
 
