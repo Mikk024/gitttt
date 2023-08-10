@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
-use Laravel\Sanctum\SanctumServiceProvider;
 
 return [
 
@@ -171,7 +170,6 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        SanctumServiceProvider::class,
     ])->toArray(),
 
     /*
